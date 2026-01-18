@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="src/images/store2.png" alt="IStore Logo" width="120" />
+  <img src="EcommerceStore1/EcommerceStore/src/images/store2.png" alt="IStore Logo" width="120" />
   <h1>📋 System Requirements</h1>
   <p><b>Hardware and Software specifications for optimal performance.</b></p>
 </div>
