@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="src/images/store2.png" alt="IStore Logo" width="120" />
+  <img src="EcommerceStore1/EcommerceStore/src/images/store2.png" alt="IStore Logo" width="120" />
   <h1>🛡️ Security Policy</h1>
   <p><b>Vulnerability reporting and security best practices.</b></p>
 </div>
