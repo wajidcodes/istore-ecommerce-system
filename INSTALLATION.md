@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="src/images/store2.png" alt="IStore Logo" width="120" />
+  <img src="EcommerceStore1/EcommerceStore/src/images/store2.png" alt="IStore Logo" width="120" />
   <h1>📦 Installation Guide</h1>
   <p><b>Everything you need to get IStore up and running.</b></p>
 </div>
