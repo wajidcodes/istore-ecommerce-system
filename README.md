@@ -1,7 +1,7 @@
 # IStore - E-Commerce Management System
 
 <div align="center">
-  <img src="src/images/store2.png" alt="IStore Logo" width="200" height="auto" />
+  <img src="EcommerceStore1/EcommerceStore/src/images/store2.png" alt="IStore Logo" width="200" height="auto" />
   <br />
   
   <h1>🛒 IStore E-Commerce System</h1>
@@ -72,44 +72,44 @@
 ### 🔐 Authentication
 <table>
   <tr>
-    <td align="center"><img src="../Project Images/Login.png" width="400"/><br/><b>Login Portal</b></td>
-    <td align="center"><img src="../Project Images/Signup.png" width="400"/><br/><b>Registration</b></td>
+    <td align="center"><img src="Project Images/Login.png" width="400"/><br/><b>Login Portal</b></td>
+    <td align="center"><img src="Project Images/Signup.png" width="400"/><br/><b>Registration</b></td>
   </tr>
 </table>
 
 ### 🛍️ Customer Interface
 <table>
   <tr>
-    <td align="center"><img src="../Project Images/Customer Dashboard.png" width="400"/><br/><b>Dashboard</b></td>
-    <td align="center"><img src="../Project Images/Customer Explore Products.png" width="400"/><br/><b>Explore Products</b></td>
+    <td align="center"><img src="Project Images/Customer Dashboard.png" width="400"/><br/><b>Dashboard</b></td>
+    <td align="center"><img src="Project Images/Customer Explore Products.png" width="400"/><br/><b>Explore Products</b></td>
   </tr>
   <tr>
-    <td align="center"><img src="../Project Images/Customer Cart.png" width="400"/><br/><b>Shopping Cart</b></td>
-    <td align="center"><img src="../Project Images/Customer Orders.png" width="400"/><br/><b>Order History</b></td>
+    <td align="center"><img src="Project Images/Customer Cart.png" width="400"/><br/><b>Shopping Cart</b></td>
+    <td align="center"><img src="Project Images/Customer Orders.png" width="400"/><br/><b>Order History</b></td>
   </tr>
   <tr>
-    <td align="center"><img src="../Project Images/Customer Discount Events.png" width="400"/><br/><b>Discount Events</b></td>
-    <td align="center"><img src="../Project Images/Customer Help Center.png" width="400"/><br/><b>Help Center</b></td>
+    <td align="center"><img src="Project Images/Customer Discount Events.png" width="400"/><br/><b>Discount Events</b></td>
+    <td align="center"><img src="Project Images/Customer Help Center.png" width="400"/><br/><b>Help Center</b></td>
   </tr>
 </table>
 
 ### 📦 Supplier Interface
 <table>
   <tr>
-    <td align="center"><img src="../Project Images/Seller Dashboard.png" width="400"/><br/><b>Supplier Dashboard</b></td>
-    <td align="center"><img src="../Project Images/Seller Products.png" width="400"/><br/><b>Inventory Management</b></td>
+    <td align="center"><img src="Project Images/Seller Dashboard.png" width="400"/><br/><b>Supplier Dashboard</b></td>
+    <td align="center"><img src="Project Images/Seller Products.png" width="400"/><br/><b>Inventory Management</b></td>
   </tr>
   <tr>
-    <td align="center"><img src="../Project Images/Seller Order.png" width="400"/><br/><b>Order Processing</b></td>
-    <td align="center"><img src="../Project Images/Seller Adding Discount Event.png" width="400"/><br/><b>Create Event</b></td>
+    <td align="center"><img src="Project Images/Seller Order.png" width="400"/><br/><b>Order Processing</b></td>
+    <td align="center"><img src="Project Images/Seller Adding Discount Event.png" width="400"/><br/><b>Create Event</b></td>
   </tr>
 </table>
 
 ### 🛡️ Administrator Interface
 <table>
   <tr>
-    <td align="center"><img src="../Project Images/Admin Dashboard.png" width="400"/><br/><b>Admin Dashboard</b></td>
-    <td align="center"><img src="../Project Images/Admin Total Customers.png" width="400"/><br/><b>Customer Management</b></td>
+    <td align="center"><img src="Project Images/Admin Dashboard.png" width="400"/><br/><b>Admin Dashboard</b></td>
+    <td align="center"><img src="Project Images/Admin Total Customers.png" width="400"/><br/><b>Customer Management</b></td>
   </tr>
 </table>
 
