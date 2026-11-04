@@ -227,7 +227,7 @@ This project was developed as part of the **Object-Oriented Programming** course
         <b>Umais Shahid</b>
       </a><br />
       Co-Developer<br />
-      <a href="https://linkedin.com">@Limitless</a>
+      <a href="https://www.linkedin.com/in/umais-shahid-96675a396/">@Limitless</a>
     </td>
   </tr>
 </table>
