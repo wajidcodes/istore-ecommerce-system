@@ -192,7 +192,7 @@ EcommerceStore/
 
 ---
 
-## �️ Database Schema
+## Database Schema
 
 The application relies on a robust relational schema. Key tables include:
 
@@ -227,7 +227,7 @@ This project was developed as part of the **Object-Oriented Programming** course
         <b>Umais Shahid</b>
       </a><br />
       Co-Developer<br />
-      <a href="https://www.linkedin.com/in/umais-shahid-96675a396/">@Limitless</a>
+      <a href="https://www.linkedin.com/in/umais-shahid-96675a396/">LinkedIn</a>
     </td>
   </tr>
 </table>
