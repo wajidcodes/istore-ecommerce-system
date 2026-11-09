@@ -159,6 +159,9 @@ Before you begin, ensure you have the following installed:
 4.  **Compile and Run**
     You can run the application directly from IntelliJ IDEA (recommended) or use the command line:
 
+    > [!NOTE]
+    > The MySQL Connector/J jar is not included in this repo — download version 9.3.0 and place it in a `lib/` folder inside `EcommerceStore1/EcommerceStore` before running the commands below.
+
     ```bash
     javac -d out -sourcepath src src/Project1/src/com/accounts/LoginForm.java
     java -cp out:lib/mysql-connector-j-9.3.0.jar Project1.src.com.accounts.LoginForm
@@ -171,23 +174,30 @@ For troubleshooting and detailed setup, refer to **[INSTALLATION.md](INSTALLATIO
 ## 📁 Project Structure
 
 ```text
-EcommerceStore/
-├── src/
-│   ├── Accounts/              # Account management logic (Customer/Supplier)
-│   ├── Admin/                 # Administrative dashboard and controls
-│   ├── cDashboard/            # Customer Interface (Cart, Products, Orders)
-│   ├── sDashboard/            # Supplier Interface (Inventory, Sales, Events)
-│   ├── Project1/              # Core Authentication (Login, Signup)
-│   ├── HelpCenter/            # User support modules
-│   ├── Main/                  # Application entry point
-│   └── images/                # UI Assets and Icons
-├── out/                       # Compiled bytecode
-├── .idea/                     # IDE Configuration
-├── README.md                  # Project Documentation
-├── INSTALLATION.md            # Setup Guide
-├── REQUIREMENTS.md            # System Specs
-├── SECURITY.md                # Security Policy
-└── LICENSE                    # MIT License
+istore-ecommerce-system/
+├── EcommerceStore1/            # IntelliJ project (open this folder in IntelliJ IDEA)
+│   ├── EcommerceStore/         # Module holding the Java sources
+│   │   └── src/
+│   │       ├── Accounts/       # Account management logic (Customer/Supplier)
+│   │       ├── Admin/          # Administrative dashboard and controls
+│   │       ├── cDashboard/     # Customer Interface (Cart, Products, Orders)
+│   │       ├── sDashboard/     # Supplier Interface (Inventory, Sales, Events)
+│   │       ├── Project1/       # Core Authentication (Login, Signup)
+│   │       ├── HelpCenter/     # User support modules
+│   │       ├── Main/           # Application entry point
+│   │       ├── META-INF/       # Manifest
+│   │       ├── assets/         # App assets
+│   │       └── images/         # UI Assets and Icons
+│   ├── out/                    # Compiled bytecode
+│   └── .idea/                  # IDE Configuration
+├── Diagams/                    # UML diagrams
+├── Project Images/             # Screenshots shown above
+├── Report/                     # Project report
+├── README.md                   # Project Documentation
+├── INSTALLATION.md             # Setup Guide
+├── REQUIREMENTS.md             # System Specs
+├── SECURITY.md                 # Security Policy
+└── LICENSE                     # MIT License
 ```
 
 ---
