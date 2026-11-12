@@ -100,10 +100,12 @@ sudo mysql_secure_installation
 
 ### Step 3: Download MySQL Connector/J
 
-1. Download MySQL Connector/J 9.3.0 from [MySQL official website](https://dev.mysql.com/downloads/connector/j/)
+1. Download the exact file (direct link, no login needed):
+   https://dev.mysql.com/get/Downloads/Connector-J/mysql-connector-j-9.3.0.zip
+   (If that link ever changes, use the Connector/J download page — https://dev.mysql.com/downloads/connector/j/ — and pick version 9.3.0, Platform Independent.)
 2. Extract the downloaded archive
-3. Locate the `mysql-connector-j-9.3.0.jar` file
-4. Save it to a known location (e.g., `C:\mysql-connector\` on Windows)
+3. Inside it, locate the `mysql-connector-j-9.3.0.jar` file
+4. Copy that jar into the `lib/` folder inside `EcommerceStore1/EcommerceStore` (the folder already exists in this repo) — so the file ends up at `EcommerceStore1/EcommerceStore/lib/mysql-connector-j-9.3.0.jar`. The run commands in the README expect it there.
 
 ### Step 4: Clone the Repository
 
