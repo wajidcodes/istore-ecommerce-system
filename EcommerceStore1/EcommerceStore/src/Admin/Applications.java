@@ -9,7 +9,7 @@ public class Applications {
     JScrollPane APanel;
     JPanel contentScroll;
 
-    private static final String url = "jdbc:mysql://127.0.0.1:3306/admin";
+    private static final String url = "jdbc:mysql://127.0.0.1:3306/loginaccounts";
     private static final String user = "root";
     private static final String password = "YOUR_MYSQL_PASSWORD_HERE";
 
