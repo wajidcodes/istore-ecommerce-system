@@ -160,7 +160,7 @@ Before you begin, ensure you have the following installed:
     You can run the application directly from IntelliJ IDEA (recommended) or use the command line:
 
     > [!NOTE]
-    > The MySQL Connector/J jar is not included in this repo — download version 9.3.0 and place it in a `lib/` folder inside `EcommerceStore1/EcommerceStore` before running the commands below.
+    > The MySQL Connector/J jar is not included in this repo — download version 9.3.0 from https://dev.mysql.com/get/Downloads/Connector-J/mysql-connector-j-9.3.0.zip and place `mysql-connector-j-9.3.0.jar` in the `lib/` folder inside `EcommerceStore1/EcommerceStore` before running the commands below.
 
     ```bash
     javac -d out -sourcepath src src/Project1/src/com/accounts/LoginForm.java
