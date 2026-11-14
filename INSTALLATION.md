@@ -377,6 +377,9 @@ If not using an IDE:
 
 ## Running the Application
 
+> [!IMPORTANT]
+> **Entry point:** `LoginForm` (`Project1.src.com.accounts.LoginForm`). `Main/MainClass.main()` is empty, so do not run `MainClass`.
+
 ### Using IntelliJ IDEA
 
 1. Open `LoginForm.java`
