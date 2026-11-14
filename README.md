@@ -213,7 +213,7 @@ The application relies on a robust relational schema. Key tables include:
 *   **customerorders**: Transactional records linking users and products.
 *   **events**: Promotional time-sensitive data.
 
-*(See [INSTALLATION.md](INSTALLATION.md#database-schema) for the full SQL script)*
+*(Full runnable script: [Database/schema.sql](Database/schema.sql) — run it with `mysql -u root -p < Database/schema.sql`. The same statements are also listed step by step in [INSTALLATION.md](INSTALLATION.md).)*
 
 ---
 
