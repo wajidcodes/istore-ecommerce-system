@@ -159,6 +159,9 @@ Before you begin, ensure you have the following installed:
 4.  **Compile and Run**
     You can run the application directly from IntelliJ IDEA (recommended) or use the command line:
 
+    > [!IMPORTANT]
+    > **Entry point:** the application starts at `LoginForm` (`Project1.src.com.accounts.LoginForm`). Run that class, not `Main/MainClass` — `MainClass.main()` is empty (both dashboard launches are commented out).
+
     > [!NOTE]
     > The MySQL Connector/J jar is not included in this repo — download version 9.3.0 from https://dev.mysql.com/get/Downloads/Connector-J/mysql-connector-j-9.3.0.zip and place `mysql-connector-j-9.3.0.jar` in the `lib/` folder inside `EcommerceStore1/EcommerceStore` before running the commands below.
 
@@ -184,7 +187,7 @@ istore-ecommerce-system/
 │   │       ├── sDashboard/     # Supplier Interface (Inventory, Sales, Events)
 │   │       ├── Project1/       # Core Authentication (Login, Signup)
 │   │       ├── HelpCenter/     # User support modules
-│   │       ├── Main/           # Application entry point
+│   │       ├── Main/           # Empty main() — not the entry point (run LoginForm)
 │   │       ├── META-INF/       # Manifest
 │   │       ├── assets/         # App assets
 │   │       └── images/         # UI Assets and Icons
