@@ -130,6 +130,9 @@ mysql -u root -p
 
 Execute the following SQL commands:
 
+> [!TIP]
+> Shortcut: the whole schema below is also shipped as [`Database/schema.sql`](Database/schema.sql) — run it in one step with `mysql -u root -p < Database/schema.sql` instead of copying each block.
+
 ```sql
 -- Create the database
 CREATE DATABASE loginaccounts;
