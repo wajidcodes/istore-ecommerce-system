@@ -269,5 +269,6 @@ This project was developed as part of the **Object-Oriented Programming** course
 ---
 
 <div align="center">
-  <i>Made with ❤️ by the IStore Team • 2025</i>
+  <i>Made with ❤️ by the IStore Team • 2025</i><br />
+  <a href="https://wajidali-portfolio.vercel.app">Wajid Ali — Portfolio</a>
 </div>
