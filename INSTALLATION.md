@@ -463,6 +463,9 @@ After inserting sample data:
 **Solution**:
 - Ensure `src/images/` directory exists with all required images
 - Check that images are included in the compiled output directory
+- Copy the images into the compiled output directory before running the app — `javac -d out` only compiles classes, it does not copy them (run these from `EcommerceStore1/EcommerceStore`):
+  - macOS/Linux: `cp -r src/images out/images`
+  - Windows: `xcopy /E /I src\images out\images`
 - Verify ClassLoader.getSystemResource() paths are correct
 
 #### 5. UnsupportedClassVersionError
