@@ -167,7 +167,28 @@ Before you begin, ensure you have the following installed:
 
     ```bash
     javac -d out -sourcepath src src/Project1/src/com/accounts/LoginForm.java
+    ```
+
+    Copy the images into `out/` before running — `javac -d out` only compiles classes, and `LoginForm` loads `images/store2.png` and `images/realsidelogin.png` from the classpath, so without this step the login window will not start:
+
+    macOS/Linux:
+    ```bash
+    cp -r src/images out/images
+    ```
+
+    Windows:
+    ```cmd
+    xcopy /E /I src\images out\images
+    ```
+
+    Then run the app — macOS/Linux (note the `:` classpath separator):
+    ```bash
     java -cp out:lib/mysql-connector-j-9.3.0.jar Project1.src.com.accounts.LoginForm
+    ```
+
+    Windows (note the `;` classpath separator):
+    ```cmd
+    java -cp out;lib\mysql-connector-j-9.3.0.jar Project1.src.com.accounts.LoginForm
     ```
 
 For troubleshooting and detailed setup, refer to **[INSTALLATION.md](INSTALLATION.md)**.
