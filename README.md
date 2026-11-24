@@ -235,8 +235,10 @@ The application relies on a robust relational schema. Key tables include:
 *   **customeraccounts / supplieraccounts**: Extended profile data.
 *   **supplierproducts**: Inventory catalog with pricing and referencing.
 *   **supplierproductimages**: BLOB storage for product visuals.
+*   **customercart**: Shopping-cart items for each customer.
 *   **customerorders**: Transactional records linking users and products.
 *   **events**: Promotional time-sensitive data.
+*   **supplierapplications**: Supplier registration applications and their approval status.
 
 *(Full runnable script: [Database/schema.sql](Database/schema.sql) — run it with `mysql -u root -p < Database/schema.sql`. The same statements are also listed step by step in [INSTALLATION.md](INSTALLATION.md).)*
 
