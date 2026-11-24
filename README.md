@@ -201,6 +201,7 @@ For troubleshooting and detailed setup, refer to **[INSTALLATION.md](INSTALLATIO
 istore-ecommerce-system/
 ├── EcommerceStore1/            # IntelliJ project (open this folder in IntelliJ IDEA)
 │   ├── EcommerceStore/         # Module holding the Java sources
+│   │   ├── lib/                # MySQL Connector/J jar (mysql-connector-j-9.3.0.jar)
 │   │   └── src/
 │   │       ├── Accounts/       # Account management logic (Customer/Supplier)
 │   │       ├── Admin/          # Administrative dashboard and controls
